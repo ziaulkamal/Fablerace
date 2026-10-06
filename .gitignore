@@ -1,0 +1,16 @@
+# Rahasia & konfigurasi lokal
+.env
+*.local
+
+# Artefak build
+/bin/
+/out/
+fablerace-api
+
+# Dependensi vendored (tidak dipakai; modul via proxy)
+/vendor/
+
+# Editor & OS
+.idea/
+.vscode/
+.DS_Store

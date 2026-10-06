@@ -1,0 +1,25 @@
+-- Rollback 0001_init: urutan terbalik dari dependensi FK.
+DROP TABLE IF EXISTS audit_logs;
+DROP TABLE IF EXISTS webhook_deliveries;
+DROP TABLE IF EXISTS webhooks;
+DROP TABLE IF EXISTS api_keys;
+DROP TABLE IF EXISTS billing_events;
+DROP TABLE IF EXISTS licenses;
+DROP TABLE IF EXISTS content_keywords;
+DROP TABLE IF EXISTS keywords;
+DROP TABLE IF EXISTS content_seo;
+DROP TABLE IF EXISTS media;
+DROP TABLE IF EXISTS term_relationships;
+DROP TABLE IF EXISTS terms;
+DROP TABLE IF EXISTS taxonomies;
+DROP TABLE IF EXISTS revisions;
+DROP TABLE IF EXISTS content_meta;
+DROP TABLE IF EXISTS contents;
+DROP TABLE IF EXISTS content_types;
+DROP TABLE IF EXISTS refresh_tokens;
+DROP TABLE IF EXISTS tenant_users;
+DROP TABLE IF EXISTS role_permissions;
+DROP TABLE IF EXISTS permissions;
+DROP TABLE IF EXISTS roles;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS tenants;
